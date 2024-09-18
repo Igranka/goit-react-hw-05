@@ -1,0 +1,31 @@
+.box{
+    padding: 5px 10px;
+}
+
+.backBtn {
+    padding: 6px 10px;
+    margin-bottom: 22px;
+    width: fit-content;
+    background-color: blue;
+    color:antiquewhite;
+}
+
+.backBtn:hover,
+.backBtn:focus {
+    background-color: rgb(138, 43, 226);
+}
+
+.info {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.infolink {
+    padding: 4px;
+    font-size: 18px;
+}
+
+.infolink:hover,
+.infolink:focus {
+    color: rgb(138, 43, 226);
+}

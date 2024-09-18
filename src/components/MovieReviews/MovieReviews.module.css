@@ -1,0 +1,16 @@
+.reviews {
+    margin-top: 20px;
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.review {
+    padding: 16px;
+    flex-basis: calc((100% - 36px) / 2);
+    border: 1px solid aquamarine;
+}
+
+.name {
+    margin-bottom: 8px;
+}

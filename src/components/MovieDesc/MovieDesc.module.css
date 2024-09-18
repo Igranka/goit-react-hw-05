@@ -1,0 +1,46 @@
+.section {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 22px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.descr li {
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.genres {
+    display: flex;
+    gap: 0;
+    font-size: 18px;
+}
+
+.genres li::after,
+.genres li::before {
+    content: "  ";
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.img {
+    width: 450px;
+}
